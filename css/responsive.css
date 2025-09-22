@@ -1,0 +1,119 @@
+/* ========================================
+   ESTILOS RESPONSIVOS
+   ======================================== */
+
+/* Tablets (≤ 992px) */
+@media (max-width: 992px) {
+    .header {
+        padding: 80px 20px;
+    }
+
+    .brand-title {
+        font-size: 2rem;
+    }
+
+    .nav ul {
+        flex-wrap: wrap;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
+
+/* Móviles (≤ 768px) */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-features {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* Móviles pequeños (≤ 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.95rem;
+    }
+
+    .header {
+        padding: 60px 10px;
+    }
+
+    .brand-title {
+        font-size: 1.6rem;
+    }
+
+    .brand-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-title {
+        font-size: 1.3rem;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        font-size: 0.85rem;
+    }
+
+    .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+
+    .back-to-top {
+        bottom: 70px;
+        right: 15px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Arte Floral que Perdura - Flores artesanales únicas con luces LED y mariposas doradas. Ramos personalizados en Neiva, Huila."
+    />
+    <meta
+      name="keywords"
+      content="flores artesanales, ramos, girasoles, rosas, tulipanes, Neiva, Huila, flores LED"
+    />
+    <title>Arte Floral que Perdura - Flores Artesanales</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="loading" class="loading-screen">
+      <div class="loading-content">
+        <div class="flower-loader">🌸</div>
+        <p>Cargando Arte Floral...</p>
+      </div>
+    </div>
+
+    <header class="header" id="header">
+      <div class="particles-container"></div>
+      <div class="container">
+        <h1 class="brand-title">
+          <span class="sparkle-text">Arte Floral que Perdura</span>
+        </h1>
+        <p class="brand-subtitle">
+          Flores artesanales que conquistan corazones
+        </p>
+        <div class="header-decoration">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-leaf"></i>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav" id="navbar">
+      <div class="container">
+        <ul class="nav-menu">
+          <li>
+            <a href="#inicio" class="nav-link"
+              ><i class="fa-solid fa-house"></i> Inicio</a
+            >
+          </li>
+          <li>
+            <a href="#productos" class="nav-link"
+              ><i class="fa-solid fa-seedling"></i> Productos</a
+            >
+          </li>
+          <li>
+            <a href="#galeria" class="nav-link"
+              ><i class="fa-solid fa-camera"></i> Galería</a
+            >
+          </li>
+          <li>
+            <a href="#contacto" class="nav-link"
+              ><i class="fa-solid fa-phone"></i> Contacto</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="container">
+        <section id="inicio" class="hero">
+          <div class="hero-content">
+            <h2 class="hero-title">Flores que Iluminan Momentos Especiales</h2>
+            <p class="hero-description">
+              Creamos ramos únicos con flores artesanales, luces LED mágicas y
+              detalles especiales como mariposas doradas. Cada creación es una
+              obra de arte que perdura en el tiempo y en el corazón.
+            </p>
+            <div class="hero-features">
+              <div class="feature">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Luces LED</span>
+              </div>
+              <div class="feature">
+                <i class="fa-solid fa-spa"></i>
+                <span>Mariposas Doradas</span>
+              </div>
+              <div class="feature">
+                <i class="fa-solid fa-heart"></i>
+                <span>Hechas con Amor</span>
+              </div>
+            </div>
+            <a href="#productos" class="cta-button">
+              <i class="fa-solid fa-seedling"></i>
+              Ver Productos
+            </a>
+          </div>
+        </section>
+
+        <section id="productos" class="products-section">
+          <div class="product-category" data-category="girasoles">
+            <h2 class="category-title">
+              <span class="category-icon">🌻</span>
+              GIRASOLES
+              <span class="category-decoration"></span>
+            </h2>
+            <div class="products-grid">
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Un Girasol</h3>
+                  <span class="product-price">$8</span>
+                </div>
+                <p class="product-description">
+                  Un hermoso girasol artesanal con papel crepé y detalles únicos
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('1 Girasol - $8')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Dos Girasoles</h3>
+                  <span class="product-price">$10</span>
+                </div>
+                <p class="product-description">
+                  Pareja perfecta de girasoles con papel decorativo
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('2 Girasoles - $10')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Tres Girasoles</h3>
+                  <span class="product-price">$12</span>
+                </div>
+                <p class="product-description">
+                  Trío de girasoles vibrantes con empaque especial
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('3 Girasoles - $12')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card featured">
+                <div class="featured-badge">Popular</div>
+                <div class="card-header">
+                  <h3 class="product-name">Ramo de 4 o más</h3>
+                  <span class="product-price">Desde $15</span>
+                </div>
+                <p class="product-description">
+                  Ramos personalizados con la cantidad que desees
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('Ramo Personalizado de Girasoles - Desde $15')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-category" data-category="tulipanes">
+            <h2 class="category-title">
+              <span class="category-icon">🌷</span>
+              LILYS Y TULIPANES
+              <span class="category-decoration"></span>
+            </h2>
+            <div class="products-grid">
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Un Tulipán o Lily</h3>
+                  <span class="product-price">$6</span>
+                </div>
+                <p class="product-description">
+                  Elegante flor individual con acabados delicados
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('1 Tulipán o Lily - $6')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Dos Tulipanes o Lilys</h3>
+                  <span class="product-price">$9</span>
+                </div>
+                <p class="product-description">
+                  Dúo perfecto en tonos suaves y románticos
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('2 Tulipanes o Lilys - $9')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Tres Tulipanes o Lilys</h3>
+                  <span class="product-price">$12</span>
+                </div>
+                <p class="product-description">
+                  Trío sofisticado con papel texturizado
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('3 Tulipanes o Lilys - $12')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Ramo de 4 o más</h3>
+                  <span class="product-price">Desde $15</span>
+                </div>
+                <p class="product-description">
+                  Ramos elegantes personalizados
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('Ramo Personalizado de Tulipanes/Lilys - Desde $15')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-category" data-category="rosas">
+            <h2 class="category-title">
+              <span class="category-icon">🌹</span>
+              ROSAS
+              <span class="category-decoration"></span>
+            </h2>
+            <div class="products-grid">
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Una Rosa</h3>
+                  <span class="product-price">$8</span>
+                </div>
+                <p class="product-description">
+                  Rosa clásica artesanal con terminados perfectos
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('1 Rosa - $8')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Dos Rosas</h3>
+                  <span class="product-price">$12</span>
+                </div>
+                <p class="product-description">
+                  Par romántico de rosas con papel premium
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('2 Rosas - $12')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="card-header">
+                  <h3 class="product-name">Tres Rosas</h3>
+                  <span class="product-price">$14</span>
+                </div>
+                <p class="product-description">
+                  Trío de rosas con presentación especial
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('3 Rosas - $14')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+              <div class="product-card featured">
+                <div class="featured-badge">Premium</div>
+                <div class="card-header">
+                  <h3 class="product-name">Ramo de 4 o más</h3>
+                  <span class="product-price">Desde $18</span>
+                </div>
+                <p class="product-description">
+                  Ramos de rosas con diseños únicos
+                </p>
+                <div class="card-footer">
+                  <button
+                    class="btn-order"
+                    onclick="orderProduct('Ramo Personalizado de Rosas - Desde $18')"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i> Pedir
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opciones Especiales -->
+          <div
+            class="product-category special-category"
+            data-category="especiales"
+          >
+            <h2 class="category-title">
+              <span class="category-icon">✨</span>
+              OPCIONES ESPECIALES
+              <span class="category-decoration"></span>
+            </h2>
+            <div class="products-grid">
+              <div class="product-card special-card">
+                <div class="card-icon"><i class="fa-solid fa-spa"></i></div>
+                <div class="card-header">
+                  <h3 class="product-name">Mariposas Doradas</h3>
+                  <span class="product-price">+$2</span>
+                </div>
+                <p class="product-description">
+                  Hermosas mariposas decorativas que añaden magia
+                </p>
+              </div>
+
+              <div class="product-card special-card">
+                <div class="card-icon">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <div class="card-header">
+                  <h3 class="product-name">Luces LED</h3>
+                  <span class="product-price">+$3</span>
+                </div>
+                <p class="product-description">
+                  Luces mágicas que iluminan tu regalo
+                </p>
+              </div>
+
+              <div class="product-card special-card">
+                <div class="card-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="card-header">
+                  <h3 class="product-name">Tarjeta Personalizada</h3>
+                  <span class="product-price">+$1</span>
+                </div>
+                <p class="product-description">
+                  Mensaje especial para esa persona única
+                </p>
+              </div>
+
+              <div class="product-card special-card">
+                <div class="card-icon"><i class="fa-solid fa-gift"></i></div>
+                <div class="card-header">
+                  <h3 class="product-name">Empaque Premium</h3>
+                  <span class="product-price">+$2</span>
+                </div>
+                <p class="product-description">
+                  Presentación de lujo con cintas y detalles
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Colores y Opciones -->
+          <div class="options-section">
+            <div class="options-grid">
+              <div class="options-card">
+                <h3>🎨 Colores Disponibles</h3>
+                <div class="color-list">
+                  <div class="color-item">
+                    🌸 <strong>Rosas:</strong> Claro y Oscuro
+                  </div>
+                  <div class="color-item">
+                    💙 <strong>Azul:</strong> Claro y Oscuro
+                  </div>
+                  <div class="color-item">💛 <strong>Amarillo</strong></div>
+                  <div class="color-item">
+                    💜 <strong>Moradas:</strong> Claro y Oscuro
+                  </div>
+                  <div class="color-item">🖤 <strong>Negras</strong></div>
+                  <div class="color-item">
+                    💚 <strong>Verde:</strong> Claro y Oscuro
+                  </div>
+                  <div class="color-item">🧡 <strong>Naranjas</strong></div>
+                </div>
+              </div>
+
+              <div class="options-card">
+                <h3>📏 Tamaños y Formas</h3>
+                <div class="size-list">
+                  <div class="size-item">
+                    <strong>Tamaños:</strong> Grande • Mediano • Pequeño
+                  </div>
+                  <div class="size-item">
+                    <strong>Formas:</strong> Redonda • Cuadrada • Corazón
+                  </div>
+                </div>
+                <div class="custom-note">
+                  <i class="fa-solid fa-info-circle"></i>
+                  <span
+                    >Todos nuestros ramos son personalizables según tus
+                    preferencias</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="galeria" class="gallery-section">
+          <div class="section-header">
+            <h2 class="section-title">📸 Galería de Creaciones</h2>
+            <p class="section-description">
+              Descubre la belleza de nuestras creaciones artesanales
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item" data-category="rosas">
+              <div class="gallery-placeholder">
+                <i class="fa-solid fa-spa"></i>
+                <span>Rosas Artesanales</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="girasoles">
+              <i class="fa-solid fa-sun"></i>
+              <span>Girasoles Brillantes</span>
+              <img
+                src="assets/img/flores1.jpg"
+                alt="Girasol Brillante"
+                class="gallery-image"
+              />
+            </div>
+
+            <div class="gallery-item" data-category="tulipanes">
+              <div class="gallery-placeholder">
+                <i class="fa-solid fa-seedling"></i>
+                <span>Tulipanes Elegantes</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="especiales">
+              <div class="gallery-placeholder">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Con Luces LED</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="especiales">
+              <div class="gallery-placeholder">
+                <i class="fa-solid fa-spa"></i>
+                <span>Con Mariposas</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="ramos">
+              <div class="gallery-placeholder">
+                <i class="fa-solid fa-gift"></i>
+                <span>Ramos Especiales</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-note">
+            <p>
+              <i class="fa-solid fa-camera"></i> Agrega tus fotos reales en la
+              carpeta "images/"
+            </p>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact-section">
+          <div class="contact-content">
+            <h2 class="contact-title">💌 ¡Haz tu Pedido Ahora!</h2>
+            <p class="contact-description">
+              Contáctanos por WhatsApp y crea momentos inolvidables
+            </p>
+
+            <div class="contact-features">
+              <div class="contact-feature">
+                <i class="fa-brands fa-whatsapp"></i>
+                <h3>WhatsApp 24/7</h3>
+                <p>Respuesta rápida y personalizada</p>
+              </div>
+              <div class="contact-feature">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Entregas en Neiva</h3>
+                <p>Servicio a domicilio confiable</p>
+              </div>
+              <div class="contact-feature">
+                <i class="fa-solid fa-heart"></i>
+                <h3>Hechas con Amor</h3>
+                <p>Cada flor es única y especial</p>
+              </div>
+            </div>
+
+            <div class="contact-cta">
+              <a href="#" class="whatsapp-cta" onclick="openWhatsApp()">
+                <i class="fa-brands fa-whatsapp"></i>
+                Contactar por WhatsApp
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <a
+      href="javascript:void(0)"
+      class="whatsapp-float"
+      onclick="openWhatsApp()"
+      title="Contáctanos por WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>Arte Floral que Perdura</h3>
+            <p>Creando momentos especiales desde el corazón</p>
+          </div>
+          <div class="footer-info">
+            <p id="copyright-year"></p>
+            <p>Palermo, Huila • Colombia • Entregas a domicilio</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+  </body>
+</html>
